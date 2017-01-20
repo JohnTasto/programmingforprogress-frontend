@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6.0'
+install: npm install
+deploy:
+  provider: s3
+  access_key_id: 
+  bucket: programmingforprogress-frontend
+  region: us-west-2
+  secret_access_key:
+    secure: Iv/pRdyZe30K1GffTgRpKPCosd/Am2gHj+nys8cd6XcIcxDphLh1iQb4jUeQMxXS05ogN5hGa4jZ+zW0wPsr9HWdKRGFoF4w7tNRU9MFtEP+C2aZRFMDgC2vIfMzD+MsDNI/Cq0/rF/n6EwgfVexzvmZcQ3tqSKXUvZIQDR5WvCGHz3ZmzJi5odRk8p03n36P3YnL/Ad1TQAcJg1yQdmdTJxy2TOcyK3IZiSQFgAnN3nDJlarQtAb+JnTRLGr5ddnBh5mWrbCa7VuHbzYUmrzHyOPyghmAEGyKQZaDM+Zwg9PhcX0atVzF3HligG3j1FGsiZVeDASr5oVR1UqHhnD/tgnyt6mkTwLJWBGzBpYBkFr2BQBNKznmeImwSxuw1wSdKs3zG1Of7sdzYnjl2A8UizD79odBGwGSinvim1J95oJr+T1qxo6WqTL81aaoCPjuVCCaiEm8bt8Sgfxvy+ouLCx7coXoVWIRxoB1JlSs6D4gVP8q63SBGNCG4SswCCTAMpTGEOQpdN5vnC/sQnrwj/jwcdqBJZiWxiFE5o+ZS5hR+7HdouKnl9BhdXIeVLQoUiZJ0RlnGY6A/dCy/1LwfraH/TmIGcob40kUqDVhxhwMRYyh6jOT/5THnmzQHsM+pCmoknySmEagM/8wQKvkbwJOLLcKBDWd0MzqGnNc4=
